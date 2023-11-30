@@ -9,11 +9,44 @@ draft: false
 toc: true
 ---
 
-## Create New Content
+## Table of contence
 
-Navigate to the root of your Hugo project and use the `hugo new` command to create a file in the `content/docs` directory:
-
-```shell
-hugo new docs/examplepage.md
-```
-...
+* Getting Started
+* Demos
+    * Hello world
+    * remote
+    * Servos
+    * Motor demo
+    * multi motor demo
+    * Ref System
+    * IMU demo
+    * hight level uart demo
+    * custom debugging class demo
+    * cli demos
+        * basic cli
+        * adding custom cli cmd
+        * cli sd_card demo
+        * file reading demo
+        * retro term demo
+    * low level demos
+        * basic input output demo
+        * basic shell demo
+        * sd card demo
+        * basic uart demo
+        * dbus demo
+        * pico to pico canbus coms
+* Lib overview
+    * drivers
+    * debugging tools
+        * debugging tools
+        * cli
+        * sd card
+        * pico sdk
+    * pin definitions
+* Writing tests
+    * CTests
+    * Wokwi Tests
+* CMake intro
+* vscode stuff
+* github actions
+* pigweed
