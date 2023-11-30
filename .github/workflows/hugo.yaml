@@ -53,7 +53,6 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '^1.21.4' # The Go version to download (if necessary) and use.
-        run: "go version"
         #run: |
         # sudo rm -rf /usr/local/go
         # sudo rm -rf /usr/bin/go
@@ -70,7 +69,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          whereis go && hugo \
+          go version && hugo \
               --gc \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
