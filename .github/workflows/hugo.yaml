@@ -51,25 +51,16 @@ jobs:
       - name: Updateing Go version
         #uses: actions/checkout@v4
         uses: actions/setup-go@v4
+       # ==== GO VERSION ====
         with:
           go-version: '^1.21.4' # The Go version to download (if necessary) and use.
-        #run: |
-        # sudo rm -rf /usr/local/go
-        # sudo rm -rf /usr/bin/go
-        # echo hi
-        # wget -O ${{ runner.temp }}/go1.21.4.linux-amd64.tar.gz https://go.dev/dl/go1.21.4.linux-amd64.tar.gz
-        # echo hi
-        # sudo tar -C /usr/local -xzf ${{ runner.temp }}/go1.21.4.linux-amd64.tar.gz
-        # sudo tar -C /usr/bin -xzf ${{ runner.temp }}/go1.21.4.linux-amd64.tar.gz
-        # echo hi
-        # #echo $PATH | grep "/usr/local/go/bin"
       - name: Build with Hugo
         env:
         # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          go version && hugo \
+          hugo \
               --gc \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
