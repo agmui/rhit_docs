@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 105
 title: "Ref_System"
 description: ""
 icon: "article"
@@ -8,3 +8,5 @@ lastmod: "2023-11-30T17:24:29-05:00"
 draft: true
 toc: true
 ---
+
+[ref system manual](https://rm-static.djicdn.com/tem/71710/RoboMaster%20Referee%20System%20Serial%20Port%20Protocol%20Appendix%20V1.5%EF%BC%8820230717%EF%BC%89.pdf)

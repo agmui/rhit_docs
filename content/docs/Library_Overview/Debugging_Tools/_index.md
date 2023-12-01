@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 102
 title: "Debugging_Tools"
 description: ""
 icon: "article"

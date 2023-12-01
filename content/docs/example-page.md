@@ -37,16 +37,17 @@ toc: true
         * pico to pico canbus coms
 * Lib overview
     * drivers
+    * pin definitions
     * debugging tools
-        * debugging tools
+        TODO: * debugging tools
         * cli
         * sd card
         * pico sdk
-    * pin definitions
 * Writing tests
     * CTests
     * Wokwi Tests
 * CMake intro
+* Wokwi
 * vscode stuff
 * github actions
 * pigweed

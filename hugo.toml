@@ -18,3 +18,11 @@ title = 'RHIT Robomasters Documention site'
     url = "/docs/"
     identifier = "docs"
     weight = 10
+
+[params]
+    [params.docs]
+        darkMode        = true                                # enable dark mode option? default false
+        prism           = true                                # enable syntax highlighting via Prism
+        # prismTheme = "lucario"
+         # (optional) - Set theme for PrismJS. Options include:
+        #   lotusdocs (default), solarized-light, twilight, lucario
