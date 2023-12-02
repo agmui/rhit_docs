@@ -35,6 +35,7 @@ toc: true
         * basic uart demo
         * dbus demo
         * pico to pico canbus coms
+* software stack diagram
 * Lib overview
     * drivers
     * pin definitions
@@ -43,6 +44,7 @@ toc: true
         * cli
         * sd card
         * pico sdk
+* wiring diagram
 * Writing tests
     * CTests
     * Wokwi Tests

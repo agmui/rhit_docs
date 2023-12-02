@@ -1,8 +1,8 @@
 ---
 weight: 101
-title: "Demos"
+title: "Guides"
 description: ""
-icon: "article"
+icon: "menu_book"
 date: "2023-11-30T17:02:34-05:00"
 lastmod: "2023-11-30T17:02:34-05:00"
 draft: true

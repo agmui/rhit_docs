@@ -1,8 +1,8 @@
 ---
 weight: 105
-title: "Vscode_configs"
+title: "VScode_configs"
 description: ""
-icon: "article"
+icon: "Code"
 date: "2023-11-30T17:28:21-05:00"
 lastmod: "2023-11-30T17:28:21-05:00"
 draft: true
