@@ -10,4 +10,6 @@ toc: true
 ---
 
 
-see Wokwi [section](#writing-wokwi-tests)
+## Running Wokwi tests
+
+`wokwi-cli --timeout "1000" --expect-text "" --fail-text "" --scenario "tests/wokwi.sample_test.yaml"`
