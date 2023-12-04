@@ -1,5 +1,5 @@
 ---
-weight: 118
+weight: 119
 title: "More_C++"
 description: ""
 icon: "article"
@@ -9,10 +9,13 @@ draft: false
 toc: true
 ---
 
+### IceCream
 ### include/define
 ### Pointers
+#### pass by ref
 ### Arrays(and getting array length)
 ### Classes
 ### Namespaces
 ### Header files
 ### Header guards
+### templates

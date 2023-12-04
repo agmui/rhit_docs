@@ -37,6 +37,12 @@ std::cout << "hello world" << std::endl;
 // or 
 
 printf("hello world\n"); // the \n means newline
+
+printf("%d\n", 5); // prints: 5
+
+int num = 5;
+int s = "hi";
+printf("%d, %s\n", num, s); // prints: 5, hi
 ```
 
 ### If

@@ -11,7 +11,10 @@ toc: true
 
 There are other examples in each submodule
 
-pico-sdk:  
+official pico docs
+[pico-sdk][(https://www.raspberrypi.com/documentation/pico-sdk/examples_page.html)
+
+pico examples repo:  
 
 * [pico-examples](https://github.com/raspberrypi/pico-examples)
 
