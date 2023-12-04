@@ -1,5 +1,5 @@
 ---
-weight: 100
+weight: 151
 title: "Basic_CLI"
 description: ""
 icon: "article"

@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 200
 title: "Debugger"
 description: ""
 icon: "pest_control"

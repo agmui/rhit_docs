@@ -1,5 +1,5 @@
 ---
-weight: 108
+weight: 140
 title: "Debugging_class"
 description: ""
 icon: "article"

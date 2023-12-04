@@ -1,5 +1,5 @@
 ---
-weight: 100
+weight: 001
 title: "Getting Started"
 description: ""
 icon: "rocket_launch"
@@ -181,3 +181,5 @@ slides install guide: https://docs.google.com/presentation/d/1am9qFasZtjAnBu1M_k
 ### Compiling example folder files TODO: maybe make own page
 
 You can either compile the files in the examples folder or just copy the code form the guides and paste it in main.cpp
+
+## [Get Started coding on the pico Basic C++ tutorial](Guides/pico_basics/C++_basics.md)

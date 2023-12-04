@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 153
 title: "SD Card CLI"
 description: ""
 icon: "article"

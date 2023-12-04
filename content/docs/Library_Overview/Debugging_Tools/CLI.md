@@ -1,5 +1,5 @@
 ---
-weight: 100
+weight: 224
 title: "CLI"
 description: ""
 icon: "article"

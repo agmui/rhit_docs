@@ -1,5 +1,5 @@
 ---
-weight: 105
+weight: 270
 title: "VScode_configs"
 description: ""
 icon: "Code"

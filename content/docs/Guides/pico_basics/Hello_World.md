@@ -1,5 +1,5 @@
 ---
-weight: 100
+weight: 112
 title: "Hello World"
 description: ""
 icon: "article"
@@ -11,8 +11,8 @@ toc: true
 
 ```cpp
 #include <iostream>
-#include "pico/stdlib.h" // the pico-sdk lib
 #include <stdio.h>
+#include "pico/stdlib.h" // the pico-sdk lib
 
 
 int main(int argc, char const *argv[])
@@ -39,3 +39,4 @@ int main(int argc, char const *argv[])
     }
 }
 ```
+to upload to the pico press `ctrl+shift+B`

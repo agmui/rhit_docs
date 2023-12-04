@@ -1,5 +1,5 @@
 ---
-weight: 101
+weight: 152
 title: "Addding_custom_cli_cmd"
 description: ""
 icon: "article"

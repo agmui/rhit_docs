@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 210
 title: "Robot_Architecture"
 description: ""
 icon: "family_history"
