@@ -16,19 +16,22 @@ gpio_init(25);// init pin 25(the led)
 gpio_set_dir(25, GPIO_OUT);//set pin 25 to output
 ```
 
+Turn On LED
 ```cpp
-// Turn On LED
 gpio_put(25, 1); // Set pin 25 to high
 ```
+
+Turn Off LED
 ```cpp
-// Turn Off LED
 gpio_put(25, 0); // Set pin 25 to high.
 ```
+wait for 250 ms
 ```cpp
-sleep_ms(250);//wait for 250 ms
+sleep_ms(250);
 ```
 
-```cpp
+### Code:
+```cpp {linenos=table,hl_lines=[16,17,20,"10-11"]}
 #include <iostream>
 #include <stdio.h>
 #include "pico/stdlib.h" // the pico-sdk lib

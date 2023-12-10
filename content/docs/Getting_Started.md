@@ -16,6 +16,9 @@ Download and run: [rm-pico-installer](https://github.com/agmui/sample_rm_pico_ap
 
 It automatically installs all the tools and vscode.
 
+### Zadig install
+TODO: add zadig install guide
+
 
 {{% /tab %}}
 {{% tab tabName="WSL" %}}
@@ -83,25 +86,28 @@ If not just type `@recommended` here
 {{< tabs tabTotal="3">}}
 {{% tab tabName="Method 1" %}}
 
-Step1:  
+#### Step1:  
 select kit
 ![no kit selected button](images/noKitBtn.png)
 ![selecting arm kit](images/armKit.png)
 
-Step2:  
+#### Step2:  
 press `CTRL + SHIFT + B`  
 
-Step3:
+#### Step3:
 select the usb port the pico is plugged in it should look like this:  
 ![serial monitor](images/serial_monitor.png)  
 then hit **Start Monitoring**
 
 {{% alert context="warning" %}}
 <details>
-<summary>if no show up</summary>
-is the pico plugged in!?  
+<summary>The pico did not show up?</summary>
 
+- is the pico plugged in!?    
 plugin then re press `CTRL + SHIFT + B`
+
+
+- **(Windows users)** did you install the [Zidag drivers](#zadig-install)
 </details>
 {{% /alert %}}
 

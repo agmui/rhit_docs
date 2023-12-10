@@ -9,43 +9,78 @@ draft: false
 toc: true
 ---
 
+Get drivers object (controls basically everything)
 
+```cpp
+pico::Drivers *drivers = new pico::Drivers();
+```
+
+allows for printing
+
+```cpp
+stdio_init_all();
+```
+
+init remote class
+
+```cpp
+drivers->remote.initialize();
+```
+
+prints "....." while waiting for controller to connect
+
+```cpp
+    std::cout << "." << std::endl;
+```
+
+Reading the remote before we check if it is connected yet or not.
+
+```cpp
+    drivers->remote.read();
+```
+
+Returns true if connected
+
+```cpp
+    drivers->remote.isConnected()
+```
+
+get value of left horizontal "joystick"
+```cpp
+float remoteValue = drivers->remote.getChannel(pico::communication::serial::Remote::Channel::LEFT_HORIZONTAL);
+```
+
+prints value 
+
+```cpp
+        std::cout << "remote: " << drivers->remote.getChannel(pico::communication::serial::Remote::Channel::LEFT_HORIZONTAL) << std::endl;
+```
+
+### Code:
 ```cpp
 #include <iostream>
 #include <drivers.h>
-#include <Debug.h>
 #include "pico/stdlib.h"
 
 int main(int argc, char const *argv[])
 {
     //get drivers(controls basically everything)
-    pico::Drivers *drivers = new pico::Drivers(); 
-    // pico::Drivers *drivers = pico::Drivers::getDrivers();
+    pico::Drivers *drivers = new pico::Drivers();
 
     stdio_init_all();
-    gpio_init(25);
-    gpio_set_dir(25, GPIO_OUT);
 
     // init remote
     drivers->remote.initialize();
     while (1)
     {
-        // Turn On LED
-        gpio_put(25, 1); // Set pin 25 to high
-        sleep_ms(250);
-        printf("LED switched on!\n");
-        // Turn Off LED
-        gpio_put(25, 0); // Set pin 25 to high.
-        sleep_ms(250);
-        printf("LED switched off!\n");
-
-        // ====
         std::cout << "." << std::endl;
         drivers->remote.read(); // Reading the remote before we check if it is connected yet or not.
         if (drivers->remote.isConnected())
         {
+            // get remote value
+            float remoteValue = drivers->remote.getChannel(pico::communication::serial::Remote::Channel::LEFT_HORIZONTAL);
             // print out value
-            std::cout << "remote: " << drivers->remote.getChannel(pico::communication::serial::Remote::Channel::LEFT_HORIZONTAL) << std::endl;
+            std::cout << "remote: " << remoteValue << std::endl;
         }
     }
 }

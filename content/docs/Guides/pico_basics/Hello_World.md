@@ -47,3 +47,10 @@ int main(int argc, char const *argv[])
 }
 ```
 {{< alert context="info" text="to upload to the pico press `ctrl+shift+B`" />}}
+
+## Common issues:
+- **[build failed](docs/getting_started/#uploading)**  
+![no_kit](images/did_not_init_kit.png)  
+
+
+- **[Why do I see no output? ](docs/getting_started/#step2)**
