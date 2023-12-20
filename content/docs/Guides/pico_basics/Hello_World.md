@@ -48,6 +48,8 @@ int main(int argc, char const *argv[])
 ```
 {{< alert context="info" text="to upload to the pico press `ctrl+shift+B`" />}}
 
+TODO: talk about Wokwi
+
 ## Common issues:
 - **[build failed](docs/getting_started/#uploading)**  
 ![no_kit](images/did_not_init_kit.png)  

@@ -26,7 +26,7 @@ hero:
   ctaButton: # 6
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/getting_started"
+    url: "https://agmui.github.io/rhit_docs.github.io/docs/getting_started/"
   cta2Button:
     icon: construction
     btnText: "Git repo"
