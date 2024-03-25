@@ -28,6 +28,8 @@ TODO: explain CAN
 
 [robomasters-remote-pdf](https://dl.djicdn.com/downloads/dt7/en/DT7&DR16_RC_System_User_Manual_v2.00_en.pdf)  
 
-[bno055 datasheet](https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf)
-[bno055 drivers](https://github.com/adafruit/Adafruit_BNO055)
+[bno055 datasheet](https://cdn-shop.adafruit.com/datasheets/BST_BNO055_DS000_12.pdf)  
+[bno055 drivers](https://github.com/adafruit/Adafruit_BNO055)  
 [pinouts](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/pinouts)
+
+[rm reviver DR16](https://dl.djicdn.com/downloads/dt7/en/DT7&DR16_RC_System_User_Manual_v2.00_en.pdf)  

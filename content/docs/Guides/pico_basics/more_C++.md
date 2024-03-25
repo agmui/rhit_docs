@@ -148,7 +148,13 @@ int main()
 
 ### Header files
 
+<!-- ![](gifs/ezgif.com-video-to-gif-converter.gif) -->
+![](ezgif.com-video-to-gif-converter.gif)
+![](ezgif.com-video-to-gif-converter2.gif)
+
 Unlike python or Java C/C++ splits its files
+
+an .h file (header file) is as if you folded all the functions in Eclipse
 
 ILoveBen.h
 ```cpp

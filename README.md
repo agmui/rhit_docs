@@ -10,3 +10,7 @@ link: https://agmui.github.io/rhit_docs.github.io/docs/
 ```shell
 hugo serve -D
 ```
+#### create new page/directory
+```shell
+hugo new docs/Wiring/links.md
+```

@@ -11,8 +11,8 @@ toc: true
 
 imports all the libraries that will be used
 ```cpp
-#include <iostream>
-#include <stdio.h>
+#include <iostream>// allows printing
+#include <stdio.h>// allows da gud stuff ;)
 #include "pico/stdlib.h" // the pico-sdk lib
 ```
 

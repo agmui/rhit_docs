@@ -23,7 +23,7 @@ gpio_put(25, 1); // Set pin 25 to high
 
 Turn Off LED
 ```cpp
-gpio_put(25, 0); // Set pin 25 to high.
+gpio_put(25, 0); // Set pin 25 to low.
 ```
 wait for 250 ms
 ```cpp
@@ -51,7 +51,7 @@ int main(int argc, char const *argv[])
         sleep_ms(250);//wait for 250 ms
         printf("LED switched on!\n");// print 
         // Turn Off LED
-        gpio_put(25, 0); // Set pin 25 to high.
+        gpio_put(25, 0); // Set pin 25 to low.
         sleep_ms(250);
         printf("LED switched off!\n");
 
